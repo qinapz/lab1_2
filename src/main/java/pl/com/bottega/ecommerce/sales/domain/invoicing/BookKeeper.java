@@ -31,15 +31,16 @@ public class BookKeeper {
 
             switch (item.getProductData().getType()) {
                 case DRUG:
-                    ratio = BigDecimal.valueOf(0.05);
+                    ratio = BigDecimal.valueOf(0.02);
                     desc = "5% (D)";
+					
                     break;
                 case FOOD:
-                    ratio = BigDecimal.valueOf(0.07);
-                    desc = "7% (F)";
+                    ratio = BigDecimal.valueOf(0.01);
+                    desc = "7% ";
                     break;
                 case STANDARD:
-                    ratio = BigDecimal.valueOf(0.23);
+                    ratio = BigDecimal.valueOf(0.33);
                     desc = "23%";
                     break;
 
